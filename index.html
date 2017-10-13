@@ -62,18 +62,27 @@ http://www.templatemo.com/tm-478-accord
                             <div class="menu-container">                                
                                 <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">                                    
                                     <a class="main-menu-link about block-keep-ratio__content flexbox-center" onclick="showContent(1)">
-                                        <i class="fa fa-user fa-4x main-menu-link-icon"></i>
+                                        <i class="fa fa-star fa-4x main-menu-link-icon"></i>
                                         LEVEL 1
                                     </a>                                    
                                 </div>
 
                                 <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
                                     <a onclick="showContent(2)" class="main-menu-link contact block-keep-ratio__content flexbox-center">
-                                        <i class="fa fa-envelope-o fa-4x main-menu-link-icon"></i>
+                                        <i class="fa fa-star fa-4x main-menu-link-icon"></i>
                                         LEVEL 2
                                     </a>                                
                                 </div>    
                             </div>  
+                            
+                            <div class="menu-container">
+                                <div class="block-keep-ratio block-keep-ratio-2-1 block-width-full home">                                    
+                                   <a onclick="showContent(3)" class="main-menu-link contact block-keep-ratio__content flexbox-center">
+                                        <i class="fa fa-star fa-4x main-menu-link-icon"></i>
+                                        LEVEL 3
+                                    </a> 
+                                </div>                                
+                            </div>
 
  
                         </div> <!-- main-menu -->
@@ -145,13 +154,14 @@ https://www.coursera.org/learn/exploring-visualizing-iot-data</p>
                                         </div>
                                         <div class="desc2" id="contactform">
                                             <form>
-                                                <table>
-                                                    <tr><td>Your name:&nbsp;</td><td><input type="text" id="contact_name" /></td></tr>
-                                                    <tr><td>Your email:&nbsp;</td><td><input type="text" id="contact_email" /></td></tr>
-                                                    <tr><td>Your text:&nbsp;</td><td><textarea cols="21" rows="10" id="contact_text"></textarea></td></tr>
-                                                    <tr><td><div class="g-recaptcha" data-sitekey="6Le4YzQUAAAAAPBxF8OAI5EoT4qgCnrkOx5K2S5e"></div></td></tr>
-                                                    <tr><td><input type="button" id="contact_button" onclick="sendEmail()" value="SEND" class=""/></td></tr>
-                                                </table>
+                                                Your name:<br/>
+                                                <input type="text" id="contact_name" /><p/>
+                                                Your email:<br/>
+                                                <input type="text" id="contact_email" /><p/>
+                                                Your text:<br/>
+                                                <textarea cols="35" rows="10" id="contact_text"></textarea><p/>
+                                                <div class="g-recaptcha" data-sitekey="6Le4YzQUAAAAAPBxF8OAI5EoT4qgCnrkOx5K2S5e"></div><p/>
+                                                <input type="button" id="contact_button" onclick="sendEmail()" value="SEND" class=""/>
                                             </form>
                                         </div>
                                         <div class="desc2" id="contactform_thanks" hidden="true">
@@ -186,6 +196,56 @@ https://www.coursera.org/learn/exploring-visualizing-iot-data</p>
                                                 <li><a href="https://www.amazon.de/Mastering-Apache-Spark-2-x-Second-ebook/dp/B01MR4YF5G/ref=sr_1_1?ie=UTF8&qid=1507919230&sr=8-1&keywords=romeo+kienzler" target="_new">Mastering ApacheSpark V2.X - 2nd Edition (BOOK)</a></li>
                                                 <li><a href="https://www.edx.org/course/introduction-apache-spark-uc-berkeleyx-cs105x" target="_new">Introduction to ApacheSpark (MOOC)</a></li>
                                                 
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>                                                        
+                        </div>
+                    </div> <!-- .content-main -->
+                    
+                    <div class="content-main" id="block2" hidden="true">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="banner-main-about margin-b-30">
+                                    <div class="banner-main-about-text">
+                                        <div class="heading2">
+                                            <p>Level 2</p>
+                                            <h1>DataScientist</h1>
+                                        </div>
+                                        <div class="desc2">
+                                            <ul>
+                                                <li><a href="https://www.youtube.com/watch?v=hfO6iRj-GZo&list=PLZEm3VxdJbH7tSACrRCoZjL1VNXAyh8th" target="_new">Introduction to DataScience (VIDEO)</a></li>
+                                                <li><a href="https://www.youtube.com/watch?v=MEohfrC-lrw&list=PLZEm3VxdJbH75MgjeLN3j0NPAmPHApKy4" target="_new">Clustering (VIDEO)</a></li>
+                                                <li><a href="https://www.youtube.com/watch?v=_cPBa6lPSaU&list=PLZEm3VxdJbH5GKX0j-cxxPkEjN8bZXAMT" target="_new">Classification (VIDEO)</a></li>
+                                                <li><a href="https://www.youtube.com/watch?v=n1qyTXRdWQg&list=PLZEm3VxdJbH6HeuMDGI5NxVGzLizfTL1o" target="_new">Regression (VIDEO)</a></li>
+                                                <li><a href="https://www.coursera.org/learn/machine-learning" target="_new">Machine Learning (MOOC)</a></li>
+                                                <li><a href="https://www.coursera.org/instructor/romeo-kienzler" target="_new">Advanced MachineLearning and Signal Processing (MOOC starting Spring 2018)</a></li>
+                                                <li><a href="https://www.kaggle.com/c/santander-customer-satisfaction" target="_new">KAGGLE COMPETITION ON CLASSIFICATION</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>                                                        
+                        </div>
+                    </div> <!-- .content-main -->
+                    
+                    <div class="content-main" id="block3" hidden="true">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="banner-main-about margin-b-30">
+                                    <div class="banner-main-about-text">
+                                        <div class="heading2">
+                                            <p>Level 3</p>
+                                            <h1>Senior DataScientist</h1>
+                                        </div>
+                                        <div class="desc2">
+                                            <ul>
+                                                <li><a href="https://www.youtube.com/watch?v=ILsA4nyG7I0&list=PLZEm3VxdJbH6QzcpJW2TFEKWM5z4Vhr-w" target="_new">Introduction to Neural Networks (VIDEO)</a></li>
+                                                <li><a href="https://www.youtube.com/watch?v=bxe2T-V8XRs&list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU" target="_new">Neural Networks Demystified (VIDEO)</a></li>
+                                                <li><a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/" target="_new">The Unreasonable Effectiveness of Recurrent Neural Networks (BLOG)</a></li>
+                                                <li><a href="https://www.coursera.org/instructor/romeo-kienzler" target="_new">Applied AI using DeepLearning on ApacheSpark (MOOC starting December 2017)</a></li>
+                                                <li><a href="https://www.coursera.org/specializations/deep-learning" target="_new">DeepLearning (MOOC)</a></li>
                                             </ul>
                                         </div>
                                     </div>

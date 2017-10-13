@@ -4,18 +4,41 @@ function showContent(id) {
         $("#about").show();
         $("#contact").hide();
         $("#block1").hide();
+        $("#block2").hide();
+        $("#block3").hide();
     }
     if (id == 'contact') {
         $("#mainblock").hide();
         $("#about").hide();
         $("#contact").show();
         $("#block1").hide();
+        $("#block2").hide();
+        $("#block3").hide();
     }
     if (id == 1) {
         $("#mainblock").hide();
         $("#about").hide();
         $("#contact").hide();
         $("#block1").show();
+        $("#block2").hide();
+        $("#block3").hide();
+    }
+    if (id == 2) {
+        $("#mainblock").hide();
+        $("#about").hide();
+        $("#contact").hide();
+        $("#block1").hide();
+        $("#block2").show();
+        $("#block3").hide();
+
+    }
+    if (id == 3) {
+        $("#mainblock").hide();
+        $("#about").hide();
+        $("#contact").hide();
+        $("#block1").hide();
+        $("#block2").hide();
+        $("#block3").show();
     }
 }
 
