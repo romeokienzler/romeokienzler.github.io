@@ -894,6 +894,7 @@ textarea.form-control {	height:135px; }
 		display:block;
 	}
 	.desc2 ul {	display: block;	}
+    .desc3  { display: flex; }
 	.heading, .heading2 { margin: 15px 0px;	}
 	.carousel { min-height: auto; }
 	
