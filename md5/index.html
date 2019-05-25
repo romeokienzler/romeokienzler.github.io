@@ -1,0 +1,16 @@
+<html>
+<head></head>   
+<body>
+    <script lang="JavaScript" src="md5.js"></script>
+    <script lang="JavaScript"> 
+
+function generate() {
+    hash = hex_md5(document.getElementById('hint').value+document.getElementById('seed').value).toLowerCase()
+    document.getElementById('hash').value = hash
+}
+
+</script>
+
+<form><input type="text" id="hint"><br/><input type="password" id="seed"><br/><input type="text" id="hash"><br/><input type="button" onclick="generate();"></form>
+</body>
+</html>
