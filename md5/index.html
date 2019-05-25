@@ -446,16 +446,43 @@
 <center>
 
         <h1>Zero round trip MD5 password generator</h1>
+        <h2>Please use at your own risk</h2>
+        <h3>Mathematically should be safe, but copy&pasting might induce a vulnerability</h3>
 
 <form>
     <table>
-        <tr><td>Your password hint</td><td><input type="text" id="hint"></td></tr>
-        <tr><td>Your master password</td><td><input type="password" id="seed"></td></tr>
-        <tr><td>Include one capital letter?</td><td><input type="checkbox" id="capital" onclick="toggle_checkbox('capital');"></td></tr>
-        <tr><td>Include one underscore?</td><td><input type="checkbox" id="underscore" onclick="toggle_checkbox('underscore');"></td></tr>
-        <tr><td>Truncate to length?</td><td><input type="number" id="truncate" oninput="save_truncate();"></td></tr>
-        <tr><td>The generated password</td><td><input type="text" id="hash"></td></tr>
-        <tr><td><input type="button" onclick="generate(false);" value="Generate"></td><td><input type="button" onclick="generate(true);" value="Generate & Copy"></td></tr>
+        <tr>
+            <td>Your password hint</td>
+            <td><input type="text" id="hint"></td>
+            <td> <font color="blue">e.g. name of web site</font> </td>
+        </tr>
+        <tr>
+            <td>Your master password</td>
+            <td><input type="password" id="seed"></td>
+        </tr>
+        <tr>
+            <td>Include one capital letter?</td>
+            <td><input type="checkbox" id="capital" onclick="toggle_checkbox('capital');"></td>
+            <td> <font color="red">stores as cookie</font> </td>
+        </tr>
+        <tr>
+            <td>Include one underscore?</td>
+            <td><input type="checkbox" id="underscore" onclick="toggle_checkbox('underscore');"></td>
+            <td> <font color="red">stores as cookie</font> </td>
+        </tr>
+        <tr>
+            <td>Truncate to length?</td>
+            <td><input type="number" id="truncate" oninput="save_truncate();"></td>
+            <td> <font color="red">stores as cookie</font> </td>
+        </tr>
+        <tr>
+            <td>The generated password</td>
+            <td><input type="text" id="hash"></td>
+        </tr>
+        <tr>
+            <td><input type="button" onclick="generate(false);" value="Generate"></td>
+            <td><input type="button" onclick="generate(true);" value="Generate & Copy"></td>
+        </tr>
     </table>
 </center> 
 </form>
